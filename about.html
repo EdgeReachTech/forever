@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Forever Women Football</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background-color: #1e7e34;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://source.unsplash.com/1600x900/?women,football') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    /* About Section */
+    .about-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .about-section h3 {
+      font-size: 2rem;
+      color: #1e7e34;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .about-section img {
+      margin: 20px 0;
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Achievements Section */
+    .achievements {
+      background-color: #fff;
+      padding: 40px 20px;
+    }
+
+    .achievements h3 {
+      text-align: center;
+      font-size: 2rem;
+      color: #1e7e34;
+      margin-bottom: 20px;
+    }
+
+    .achievements-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .achievement-item {
+      flex: 1 1 calc(33.333% - 40px);
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .achievement-item h4 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+
+    .achievement-item p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    /* Call to Action */
+    .cta {
+      background-color: #1e7e34;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .cta h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta a {
+      padding: 15px 30px;
+      background-color: white;
+      color: #1e7e34;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: #c1e1c1;
+      color: #145523;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1e7e34;
+      color: white;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    @media (max-width: 768px) {
+      .achievements-container {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .achievement-item {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Forever Women Football</h1>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>About Us</h2>
+    <p>Empowering women through football, one goal at a time.</p>
+  </div>
+</section>
+
+<section class="about-section">
+  <h3>Our Mission</h3>
+  <p>
+    Forever Women Football is dedicated to promoting women's football at all levels. Our mission is to empower women, inspire communities, and foster the love for the beautiful game. 
+    From grassroots to championships, we believe in providing opportunities for every woman to shine on and off the field.
+  </p>
+  <img src="https://source.unsplash.com/1000x600/?team,sports" alt="Team playing football">
+  <p>
+    Founded on the principles of equality, dedication, and passion, Forever Women Football has grown into a thriving community of players, coaches, and fans who share a common goal: to uplift women through sport.
+  </p>
+</section>
+
+<section class="achievements">
+  <h3>Our Achievements</h3>
+  <div class="achievements-container">
+    <div class="achievement-item">
+      <h4>National Championship 2023</h4>
+      <p>Winners of the prestigious National Women's Football League Championship.</p>
+    </div>
+    <div class="achievement-item">
+      <h4>Community Outreach</h4>
+      <p>Hosted over 50 training camps for underprivileged girls across the nation.</p>
+    </div>
+    <div class="achievement-item">
+      <h4>Player Development</h4>
+      <p>Over 100 players have progressed to professional clubs and international teams.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h3>Join Our Journey</h3>
+  <p>Be a part of our story and help us continue to grow women's football worldwide.</p>
+  <a href="/donate">Support Us</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Forever Women Football. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
